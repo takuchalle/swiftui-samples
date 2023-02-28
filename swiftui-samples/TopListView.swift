@@ -9,14 +9,14 @@ import SwiftUI
 
 struct TopListView: View {
     var body: some View {
-        NavigationView {
+        NavigationSplitView {
             List {
-                NavigationLink(destination: TextSampleView()){
+                NavigationLink	(destination: TextSampleView()){
                     Text("Text")
                     
                 }
             }.navigationTitle("SwiftUI Samples")
-        }
+        } detail: {}
     }
 }
 
