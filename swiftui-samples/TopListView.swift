@@ -9,14 +9,19 @@ import SwiftUI
 
 struct TopListView: View {
     var body: some View {
-        NavigationSplitView {
+        NavigationStack {
             List {
-                NavigationLink	(destination: TextSampleView()){
-                    Text("Text")
-                    
+                NavigationLink("Text") { TextSampleView() }
+            }
+            .navigationTitle("SwiftUI Samples")
+            .toolbar{
+                ToolbarItem(placement: .bottomBar) {
+                    Button(action: {}) {
+                        Label("送信", systemImage: "camera")
+                    }
                 }
-            }.navigationTitle("SwiftUI Samples")
-        } detail: {}
+            }
+        }
     }
 }
 
