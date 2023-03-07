@@ -12,6 +12,7 @@ struct TopListView: View {
         NavigationStack {
             List {
                 NavigationLink("Text") { TextSampleView() }
+                NavigationLink("Grid") { SampleGridView() }
             }
             .navigationTitle("SwiftUI Samples")
             .toolbar{

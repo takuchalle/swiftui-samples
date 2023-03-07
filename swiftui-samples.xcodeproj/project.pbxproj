@@ -15,6 +15,7 @@
 		B02AC97029AC6A9D00092951 /* swiftui_samplesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02AC96F29AC6A9D00092951 /* swiftui_samplesUITestsLaunchTests.swift */; };
 		B02AC97D29AC6B1A00092951 /* TopListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02AC97C29AC6B1A00092951 /* TopListView.swift */; };
 		B02AC97F29AC6EE200092951 /* TextSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02AC97E29AC6EE200092951 /* TextSampleView.swift */; };
+		B02AC9CA29B6C90200092951 /* SampleGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02AC9C929B6C90200092951 /* SampleGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		B02AC96F29AC6A9D00092951 /* swiftui_samplesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_samplesUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B02AC97C29AC6B1A00092951 /* TopListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopListView.swift; sourceTree = "<group>"; };
 		B02AC97E29AC6EE200092951 /* TextSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSampleView.swift; sourceTree = "<group>"; };
+		B02AC9C929B6C90200092951 /* SampleGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				B02AC97E29AC6EE200092951 /* TextSampleView.swift */,
 				B02AC95629AC6A9D00092951 /* Assets.xcassets */,
 				B02AC95829AC6A9D00092951 /* Preview Content */,
+				B02AC9C929B6C90200092951 /* SampleGridView.swift */,
 			);
 			path = "swiftui-samples";
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			files = (
 				B02AC97F29AC6EE200092951 /* TextSampleView.swift in Sources */,
 				B02AC97D29AC6B1A00092951 /* TopListView.swift in Sources */,
+				B02AC9CA29B6C90200092951 /* SampleGridView.swift in Sources */,
 				B02AC95329AC6A9700092951 /* swiftui_samplesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
